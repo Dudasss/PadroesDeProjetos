@@ -1,4 +1,4 @@
-from AT4_Singleton_Builder_Prototype.Singleton_BD.SistemaFinanceiro import SistemaFinanceiro
+from PadroesDeProjetos.AT4_Singleton_Builder_Prototype. SingletonBD.SistemaFinanceiro import SistemaFinanceiro
 
 if __name__ == "__main__":
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     print(f"ID da conexão em [Transações]: {id_conexao_2}")
 
     if id_conexao_1 == id_conexao_2:
-        print("\n[SUCESSO] As duas variáveis apontam para a MESMA instância de ConexaoBD.")
+        print("\nSUCESSO: As duas variáveis apontam para a MESMA instância de ConexaoBD.")
         print("O Padrão Singleton foi implementado corretamente!")
     else:
-        print("\n[FALHA] As variáveis apontam para instâncias DIFERENTES.")
+        print("\nFALHA: As variáveis apontam para instâncias DIFERENTES.")

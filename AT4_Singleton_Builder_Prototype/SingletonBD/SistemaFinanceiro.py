@@ -1,4 +1,4 @@
-from AT4_Singleton_Builder_Prototype.Singleton_BD.ConexaoBD import ConexaoBD
+from PadroesDeProjetos.AT4_Singleton_Builder_Prototype.SingletonBD.ConexaoBD import ConexaoBD
 
 
 class SistemaFinanceiro:
