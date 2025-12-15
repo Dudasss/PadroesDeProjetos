@@ -1,4 +1,4 @@
-from SistemaDeNotificações.Interface.INotificacao import INotificacao
+from PadroesDeProjetos.SistemaDeNotificações.Interface.INotificacao import INotificacao
 
 
 class NotificacaoEmail(INotificacao):
