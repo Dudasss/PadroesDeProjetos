@@ -1,7 +1,7 @@
-from PadroesDeProjetos.AT8_State_Command_Observer.SistemaNotificacoesObserver.Interface.Observador import Observador
+from abc import ABC
 
 
-class Usuario(Observador):
+class Usuario(ABC):
     def __init__(self, nome: str):
         self.nome = nome
 
